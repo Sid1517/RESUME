@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.resume {
+    max-width: 800px; /* Reduced width for more compact layout */
+    margin: 20px auto;
+    background: white;
+    padding: 15px; /* Reduced padding */
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1); /* Slightly reduced shadow */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+.profile {
+    display: flex;
+    align-items: center; /* Center align profile image and info */
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 100px; /* Reduced width */
+    height: 100px; /* Reduced height */
+    margin-right: 15px; /* Reduced margin */
+}
+
+.contact-info {
+    text-align: left;
+    font-size: 0.85em; /* Slightly reduced font size */
+    color: #555;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em; /* Reduced font size */
+    color: #003366;
+}
+
+.contact-info a {
+    color: #003366;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.3em; /* Reduced font size */
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 4px; /* Reduced padding */
+    margin-top: 15px; /* Reduced margin */
+}
+
+section {
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+ul {
+    list-style-type: square;
+    margin: 0;
+    padding-left: 15px; /* Reduced padding */
+}
+
+.project, .job {
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+.date {
+    font-weight: bold;
+    color: #333;
+}
+
+.tech, .location {
+    color: #555;
+    font-style: italic;
+}
+
+.education p {
+    margin: 3px 0; /* Reduced margin */
+}
+
+.certifications {
+    margin-bottom: 5px; /* Reduced margin */
+}
+.gap {
+    margin-bottom: 15px; /* Ensure consistent spacing */
+}
+
+.gap p {
+    font-size: 0.9em; /* Adjust font size if needed */
+    color: #555;
+}
